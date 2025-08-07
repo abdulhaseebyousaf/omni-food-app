@@ -10,7 +10,7 @@ function HowItWorks() {
           </h2>
       </div>
       {/*  */}
-      <div className='grid gap-x-24 gap-y-16 '></div>
+      <div className='grid gap-x-24 gap-y-16'></div>
     </div>
   )
 }
