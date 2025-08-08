@@ -14,17 +14,17 @@ export default function Hero() {
 <div className='max-w-[1300px] mx-auto grid gap-24 items-center grid-cols-2 px-8'>
     {/* hero-text-box */}
     <div className='text-[#555] font-normal '>
-        <h1 className='text-[52px] text-[#343a40] mb-8  font-bold tracking-tighter' >  A healthy meal delivered to your door, every single day
+        <h1 className='text-[52px] text-[#343a40] mb-8  font-bold tracking-[-0.5px] leading-[1.05]' >  A healthy meal delivered to your door, every single day
             </h1>
-            <h2 className='mb-12 text-[20px]' >
+            <h2 className='mb-12 leading-[1.6] text-[20px]' >
               The smart 365-days-per-year food subscription that will make you
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </h2>
             {/*buttons */}
             <div>
-            <button href="#" className='hover:bg-[#cf711f] cursor-pointer text-white hover:transition-all font-semibold hover:duration-300 mr-4 rounded-[9px] px-8 py-4 bg-[#e67e22]'>Start eating well</button>
-            <button href="#" className='hover:bg-[#fdf2e9] cursor-pointer text-black hover:transition-all hover:duration-300 mr-4 font-semibold rounded-[9px] px-8 py-4 bg-white hover:border-white'>Learn more ↓</button>
+            <button href="#" className='hover:bg-[#cf711f] cursor-pointer text-white hover:transition-all font-semibold hover:duration-300 mr-[19px] rounded-[9px] px-8 py-3 text-xl  bg-[#e67e22]'>Start eating well</button>
+            <button href="#" className='hover:bg-[#fdf2e9] cursor-pointer text-[#555] hover:transition-all hover:duration-300  font-semibold rounded-[9px] px-8 py-3 text-xl bg-white hover:border-white'>Learn more ↓</button>
             </div>
             {/* last images */}
             <div className='flex items-center  mt-20'>
@@ -39,7 +39,7 @@ export default function Hero() {
                 </div>
                 {/* text */}
                 <div className='text-lg font-semibold'>
-                    <span className='text-[#cf711f] font-bold'>250,000+</span>
+                    <span className='text-[#cf711f] font-bold'>250,000+ </span>
                      meals delivered last year!
                     </div>
             </div>
