@@ -4,18 +4,43 @@ function TestimonialPhotos({ gallery1, gallery2, gallery3, gallery4, gallery5, g
   return (
     <>
     <div className='grid  gap-4 p-4 grid-cols-3' > 
-        <img  src={gallery1} alt="" />
-        <img  src={gallery2} alt="" />
-        <img  src={gallery3} alt="" />
-        <img  src={gallery4} alt="" />
-        <img  src={gallery5} alt="" />
-        <img  src={gallery6} alt="" />
-        <img  src={gallery7} alt="" />
-        <img  src={gallery8} alt="" />
-        <img  src={gallery9} alt="" />
-        <img  src={gallery10} alt="" />
-        <img  src={gallery11} alt="" />
-        <img  src={gallery12} alt="" />
+      <figure className='overflow-hidden'>
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery1} alt="" />
+      </figure>
+      <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery2} alt="" />
+      </figure>
+      <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery3} alt="" />
+      </figure>
+      <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery4} alt="" />
+      </figure>
+      <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery5} alt="" />
+      </figure>
+      <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery6} alt="" />
+      </figure>
+      <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery7} alt="" />
+      </figure>
+      
+      <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery8} alt="" />
+      </figure>
+         <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery9} alt="" />
+      </figure>
+         <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery10} alt="" />
+      </figure>
+         <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery11} alt="" />
+      </figure>
+ <figure className='overflow-hidden' >
+        <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery7} alt="" />
+      </figure>
     </div>
     </>
   )

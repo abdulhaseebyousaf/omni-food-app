@@ -23,8 +23,8 @@ export default function Hero() {
             </h2>
             {/*buttons */}
             <div>
-            <button href="#" className='hover:bg-[#cf711f] cursor-pointer text-white hover:transition-all font-semibold hover:duration-300 mr-[19px] rounded-[9px] px-8 py-3 text-xl  bg-[#e67e22]'>Start eating well</button>
-            <button href="#" className='hover:bg-[#fdf2e9] cursor-pointer text-[#555] hover:transition-all hover:duration-300  font-semibold rounded-[9px] px-8 py-3 text-xl bg-white hover:border-white'>Learn more ↓</button>
+            <a href="#signup" className='hover:bg-[#cf711f] cursor-pointer text-white hover:transition-all font-semibold hover:duration-300 mr-[19px] rounded-[9px] px-8 py-3 text-xl  bg-[#e67e22]'>Start eating well</a>
+            <a href="#how" className='hover:bg-[#fdf2e9] cursor-pointer text-[#555] hover:transition-all hover:duration-300 hover:shadow-[inset_0_0_0_3px_#fff] font-semibold rounded-[9px] px-8 py-3 text-xl bg-white hover:border-white'>Learn more ↓</a>
             </div>
             {/* last images */}
             <div className='flex items-center  mt-20'>

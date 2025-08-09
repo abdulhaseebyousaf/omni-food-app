@@ -29,6 +29,22 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.icon-inner img {
-    color: #e67e22;
+#cta-image{
+    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url(../src/assets/signupPhoto/eating.jpg);
+}
+html {
+  scroll-behavior: smooth;
+}
+.pricingCard::after {
+        content: "Best value";
+    position: absolute;
+    top: 6%;
+    right: -18%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    background-color: #ffd43b;
+    padding: 8px 80px;
+    transform: rotate(45deg);
 }

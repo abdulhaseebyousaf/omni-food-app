@@ -20,7 +20,7 @@ import gallery12 from '../assets/galleryPhoto/gallery-12.jpg'
 
 function Testimonials() {
   return (
-    <div className='bg-[#fdf2e9] grid grid-cols-[55fr_45fr] items-center'>
+    <div id='testimonials' className='bg-[#fdf2e9] grid grid-cols-[55fr_45fr] items-center'>
         <div className='p-24 '>
             <span className='block text-base font-medium text-[#cf711f] uppercase mb-4 tracking-[0.75px]'>Testimonials</span>
             <h1 className='text-[44px] leading-[1.2] mb-24 tracking-[-0.5px] font-bold' >Once you try it, you can't go back</h1>

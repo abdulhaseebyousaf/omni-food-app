@@ -3,7 +3,7 @@ import React from 'react'
 const ProductCard = ({ image, text, heading, svg, number, textsecond, thirdnumber, secondnumber, fourthnumber, textlast,secondsvg, thirdsvg, innertext, display }) => {
   return (
     <>
-    <div className='transition-all   rounded-[11px] overflow-hidden shadow-[0_2.4rem_4.8rem_rgba(0,0,0,0.075)] ' >
+    <div className='transition-all duration-400 hover:transform hover:-translate-y-[12px]  rounded-[11px] overflow-hidden shadow-[0_2.4rem_4.8rem_rgba(0,0,0,0.075)] ' >
       {/* for image */}
       <img src={image} alt="" />
       {/* for image */}

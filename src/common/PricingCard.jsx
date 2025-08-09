@@ -1,6 +1,7 @@
 import React from 'react'
-
-const PricingCard = ({text, dollar, number, paragraph, image, contact1, contact2, contact3, buttonText }) => {
+import { MdDone } from "react-icons/md";
+import { RxCross2 } from "react-icons/rx";
+const PricingCard = ({text, dollar, number, paragraph,  contact1, contact2, contact3,  contact4, buttonText,showicon }) => {
   return (
     <>
        <div className='mb-12 text-center '>
@@ -15,24 +16,36 @@ const PricingCard = ({text, dollar, number, paragraph, image, contact1, contact2
     </div>
     <ul className='list-none flex flex-col gap-4'>
         <li className='flex items-center gap-4 leading-[1.2] text-lg '>
-            <img className='w-[30px] text-[#e67e22]' src={image} alt="" />
-            <p className='text-lg leading-[1.2] text-[#555]'>{contact1}</p>
+            <p className='text-[#e67e22] text-3xl'>
+                <MdDone />
+            </p>
+            <p className='text-lg leading-[1.2] text-[#555]'>{contact1}
+             
+            </p>
         </li>
         <li className='flex items-center gap-4 leading-[1.2] text-lg '>
-            <img className='w-[30px] text-[#e67e22]' src={image} alt="" />
+            <p className='text-[#e67e22] text-3xl'>
+                <MdDone />
+            </p>
             <p className='text-lg leading-[1.2] text-[#555]'>{contact2}</p>
         </li>
         <li className='flex items-center gap-4 leading-[1.2] text-lg '>
-            <img className='w-[30px] text-[#e67e22]' src={image} alt="" />
+            <p className='text-[#e67e22] text-3xl'>
+                <MdDone />
+            </p>
             <p className='text-lg leading-[1.2] text-[#555]'>{contact3}</p>
         </li>
         <li className='flex items-center gap-4 leading-[1.2] text-lg '>
-            <img className='w-[30px] text-[#e67e22]' src={image} alt="" />
-            <p className='text-lg leading-[1.2]  text-[#555]'>{contact3}</p>
+            <p className='text-[#e67e22] text-3xl'>
+                 {showicon === true ? <RxCross2 /> : <MdDone />  }
+                
+            </p>
+            
+            <p className='text-lg leading-[1.2]  text-[#555]'>{contact4}</p>
         </li>
     </ul>
     <div className='flex justify-center'>
-<button href="#" className="hover:bg-[#cf711f]  cursor-pointer text-xl text-white hover:transition-all font-semibold hover:duration-300 mt-12 rounded-[9px] px-8 py-4 bg-[#e67e22]">{buttonText}</button>
+<a href="#" className="hover:bg-[#cf711f]  cursor-pointer text-xl text-white hover:transition-all font-semibold hover:duration-300 mt-12 rounded-[9px] px-8 py-4 bg-[#e67e22]">{buttonText}</a>
     </div>
     </>
   )

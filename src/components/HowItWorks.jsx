@@ -15,7 +15,7 @@ function HowItWorks() {
         </h2>
         {/*  */}
       </div>
-      <div className="max-w-[1200px]  gap-y-16  flex flex-col  px-8 mx-auto ">
+      <div className="max-w-[1200px] max-[1200px]:gap-y-[57.6px] gap-y-16  flex flex-col  px-8 mx-auto ">
         {/* div */}
         <Card 
         image={appImage1}

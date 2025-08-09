@@ -1,11 +1,14 @@
 import React from 'react'
 import PricingCard from '../common/PricingCard'
-import image from '../assets/PricingPhotos/black-tick.png'
 import PricingEndCard from '../common/PricingEndCard'
+import logofirst from '../assets/Pricingsvg/first.svg'
+import logosecond from '../assets/Pricingsvg/second.svg'
+import logothird from '../assets/Pricingsvg/third.svg'
+import logofourth from '../assets/Pricingsvg/fourth.svg'
 
 function Pricing() {
   return (
-    <div className='py-24' >
+    <div id='pricing' className='py-24' >
       <div className='max-w-[1200px] px-8 mx-auto'>
         <p className='block text-base font-medium text-[#cf711f] uppercase mb-4 tracking-[0.75px] '>Pricing</p>
         <h2 className='text-[44px] mb-24 leading-[1.2] text-[#333] font-bold tracking-[-0.5px] ' >Eating well without breaking the bank</h2>
@@ -13,30 +16,32 @@ function Pricing() {
         </div>  
         <div className='grid max-w-[1200px] mb-12 gap-x-16 gap-y-24  grid-cols-2 mx-auto '>
 <div className='justify-items-end'>
-<div className=' border-2 border-solid border-[#fdf2e9] p-[46px] rounded-[11px] w-[75%]'>
+<div className=' border-2  border-solid border-[#fdf2e9] p-[46px] rounded-[11px] w-[75%]'>
    <PricingCard 
    text={'Starter'}
    dollar={'$'}
    number={'399'}
    paragraph={'per month. That is just $13 per meal!'}
-   image={image}
+   showicon={true}
    contact1={'1 meal per day'}
    contact2={'Order from 11am to 9pm'}
    contact3={'Delivery is free'}
+   contact4={''}
    buttonText={'Start eating well'}
    />
 </div>
     </div>
-<div className=' border-2 border-solid border-[#fdf2e9] p-[46px] rounded-[11px] bg-[#fdf2e9] w-[75%]'>
+<div className='pricingCard overflow-hidden border-2 relative border-solid border-[#fdf2e9] p-[46px] rounded-[11px] bg-[#fdf2e9] w-[75%]'>
    <PricingCard 
    text={'Complete'}
    dollar={'$'}
    number={'649'}
-   paragraph={'per month. That is just $13 per meal!'}
-   image={image}
-   contact1={'1 meal per day'}
-   contact2={'Order from 11am to 9pm'}
+   paragraph={'per month. That is just $11 per meal!'}
+   contact1={'2 meal per day'}
+   contact2={'Order 24/7'}
    contact3={'Delivery is free'}
+   contact4={'Get access to latest recipes'}
+  showicon={false}
    buttonText={'Start eating well'}
    />
 </div>
@@ -51,18 +56,22 @@ function Pricing() {
 
     <div className='grid grid-cols-4 gap-x-16  gap-y-24 px-8 mx-auto max-w-[1200px]' >
  <PricingEndCard
+ image1={logofirst}
  paragraph={'Never cook again!'}
  contact1={'Our subscriptions cover 365 days per year, even including major holidays.'}
  />
  <PricingEndCard
+ image1={logosecond}
  paragraph={'Local and organic'}
  contact1={'Our cooks only use local, fresh, and organic products to prepare your meals.'}
  />
  <PricingEndCard
+ image1={logothird}
  paragraph={'No waste'}
  contact1={'All our partners only use reusable containers to package all your meals.'}
  />
  <PricingEndCard
+ image1={logofourth}
  paragraph={'Pause anytime'}
  contact1={'Going on vacation? Just pause your subscription, and we refund unused days.'}
  />
