@@ -39,16 +39,16 @@ function MealSection() {
   ];
 
   return (
-    <div id="meal" className="py-24">
-      <div className="px-8 mx-auto max-w-[1200px]">
-        <span className="uppercase font-medium text-base block text-[#cf711f] mb-4 tracking-[0.75px] text-center">
+    <div id="meal" className="py-24 max-[1201px]:py-[86px] max-[705px]:py-[76px] ">
+      <div className="px-8 mx-auto max-w-[1200px] max-[705px]:px-0  ">
+        <span className="uppercase font-medium text-base block text-[#cf711f] mb-4 tracking-[0.75px] text-center max-[1201px]:text-sm max-[1201px]:mb-4 ">
           Meals
         </span>
-        <h2 className="text-[44px] text-center mb-24 text-[#333] tracking-[-0.5px] leading-[1.2] font-bold">
+        <h2 className="text-[44px] text-center mb-24 text-[#333] max-[1201px]:text-[32px] max-[1201px]:mb-[96.6px] tracking-[-0.5px] max-[945px]:text-[28.8px] max-[945px]:mb-[76px]  leading-[1.2] font-bold">
           Omnifood AI chooses from 5,000+ recipes
         </h2>
       </div>
-      <div className="mb-12  grid grid-cols-3 gap-x-16 px-8 mx-auto max-w-[1200px]">
+      <div className="mb-12 max-[705px]:gap-x-[38px] max-[545px]:grid-cols-1 grid grid-cols-3 gap-x-16 px-8 mx-auto max-[705px]:grid-cols-2 max-[705px]:gap-y-[51px] max-[705px]:px-[25px]  max-w-[1200px] max-[1201px]:max-w-[1080px] max-[1201px]:gap-x-[43px] max-[945px]:gap-x-[38.4px]">
         <ProductCard
           image={imagee}
           text={"Vegetarian"}
@@ -80,14 +80,14 @@ function MealSection() {
           fourthnumber={"4.8"}
           textlast={"rating (441)"}
         />
-        <div className="dites">
-          <h1 className="text-3xl mb-8 text-[#333] font-bold">
+        <div className="dites  max-[705px]:col-span-full max-[705px]:justify-self-center max-[705px]:px-[25px] ">
+          <h1 className="text-3xl max-[1201px]:text-[21px]  max-[1201px]:mb-[28px]  mb-8 text-[#333] font-bold">
             Works with any diet:
           </h1>
-            <div className="flex flex-col gap-y-4 ">
+            <div className="flex flex-col gap-y-4 max-[945px]:gap-y-3">
           {DIETS.map((diet) => (
-            <div className="flex  gap-x-4 items-center text-lg text-[#555]">
-              <p className="text-[#e67e22] text-3xl">
+            <div className="flex  gap-x-4 items-center max-[1201px]:text-base max-[945px]:text-sm text-lg text-[#555]">
+              <p className="text-[#e67e22] max-[1201px]:text-[27px] max-[945px]:text-[24px] text-3xl ">
                 <MdDone />
               </p>
               <p>{diet.diet}</p>
