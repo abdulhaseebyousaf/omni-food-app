@@ -8,17 +8,17 @@ import logofourth from '../assets/Pricingsvg/fourth.svg'
 
 function Pricing() {
   return (
-    <div id='pricing' className='py-24 max-[1201px]:py-24' >
+    <div id='pricing' className='py-24 max-[1201px]:py-24 max-[945px]:py-14  max-sm:py-9' >
       <div className='max-w-[1200px] max-[945px]:px-[25px] max-[1201px]:px px-8 mx-auto max-[1201px]:max-w-[1080px] '>
         
          <p className='block text-base max-[1201px]:text-[14px] max-[1201px]:mb-[14px] font-medium text-[#cf711f] uppercase mb-4 tracking-[0.75px] max-[1021px]:mb-3 max-[945px]:text-[12px]'>Pricing</p>
 
-        <h2 className='text-[44px] max-[1201px]:text-[32px] max-[1201px]:mb-[86px] mb-24 max-[945px]:mb-[76px] max-[945px]:text-[28px] leading-[1.2] text-[#333] font-bold tracking-[-0.5px] ' >Eating well without breaking the bank</h2>
+        <h2 className='text-[44px] max-[1201px]:text-[32px] max-[1201px]:mb-[86px] mb-24 max-[945px]:mb-[76px] max-[945px]:text-[28px] leading-[1.2] text-[#333] font-bold tracking-[-0.5px] max-[705px]:mb-9 max-[405px]:text-[28px] '>Eating well without breaking the bank</h2>
         
         </div>  
-        <div className='container grid max-w-[1200px] mb-12 gap-x-16 gap-y-24  grid-cols-2 mx-auto max-[1201px]:max-w-[1080px] max-[1201px]:mb-[43px]:mb-[38px] '>
-<div className='justify-items-end'>
-<div className=' border-2 max-[1201px]:p-[43.2px] max-[945px]:p-9  border-solid border-[#fdf2e9]  p-[46px]  rounded-[11px] w-[75%]'>
+        <div className='grid max-w-[1200px] mb-12 gap-x-16 gap-y-24  grid-cols-2  mx-auto max-[1201px]:max-w-[1080px] max-[1201px]:mb-[43px] max-[1201px]:gap-x-[43px] max-[945px]:gap-x-[38px] max-[545px]:justify-items-center max-[545px]:grid-cols-1 max-[705px]:pl-6 max-[545px]:gap-y-9 max-[705px]:pr-6'>
+<div className='justify-items-end max-[545px]:justify-items-center max-[705px]:w-full '>
+<div className=' border-2 max-[1201px]:p-[43.2px] max-[945px]:p-9  border-solid border-[#fdf2e9] max-[705px]:w-full p-[46px]  rounded-[11px] w-[75%] '>
    <PricingCard 
    text={'Starter'}
    dollar={'$'}
@@ -33,7 +33,7 @@ function Pricing() {
    />
 </div>
     </div>
-<div className='pricingCard overflow-hidden border-2 relative border-solid border-[#fdf2e9] p-[46px] rounded-[11px] bg-[#fdf2e9] max-[1201px]:p-[43.2px] w-[75%]'>
+<div className='pricingCard  max-[1201px]:after:text-sm !max-[1201px]:after:px-[72px] !max-[1201px]:after:py-2 overflow-hidden border-2 max-[945px]:p-9  relative border-solid border-[#fdf2e9] p-[46px] rounded-[11px] bg-[#fdf2e9] max-[1201px]:p-[34.2px] w-[75%] max-[705px]:w-full '>
    <PricingCard 
    text={'Complete'}
    dollar={'$'}
@@ -49,14 +49,14 @@ function Pricing() {
 </div>
 {/*  */}
         </div>
-        <div className='mb-24 grid gap-x-16 gap-y-24 max-w-[1200] px-8 max-auto'>
-        <aside className='text-base text-[#555] font-normal leading-[1.6] text-center max-[1201px]:text-sm max-[945px]:text-xs'>
+        <div className='mb-24 max-[545px]:mb-[76px] grid gap-x-16 gap-y-24 max-w-[1200] px-8 max-auto  max-sm:mb-6 max-sm:px-[25px]'>
+        <aside className='text-base text-[#555] font-normal leading-[1.6] text-center max-sm:text-left max-[1201px]:text-sm  max-[945px]:text-xs'>
             Prices include all applicable taxes. You can cancel at any time.
             Both plans include the following:
           </aside>
     </div>
 
-    <div className='grid grid-cols-4 max-[545px]:grid-cols-1 max-[705px]:grid-cols-2 max-[705px]:gap-y-[51px] max-[545px]:gap-y-[38px]  max-[1201px]:gap-x-[43.2px] max-[946px]:gap-x-[38px] max-[1201px]:max-w-[1080px] gap-x-16  gap-y-24 px-8 mx-auto max-w-[1200px]  max-[1201px]:px-7 max-[945px]:px-[25.6px]  ' >
+    <div className='grid grid-cols-4 max-[545px]:grid-cols-1 max-[705px]:grid-cols-2 max-[705px]:gap-y-[51px] max-[545px]:gap-y-[38px]  max-[1201px]:gap-x-[43.2px] max-[946px]:gap-x-[38px] max-[1201px]:max-w-[1080px] gap-x-16  gap-y-24 px-8 mx-auto max-w-[1200px]  max-[1201px]:px-7 max-[945px]:px-[25px] max-sm:gap-y-6  ' >
  <PricingEndCard
  image1={logofirst}
  paragraph={'Never cook again!'}

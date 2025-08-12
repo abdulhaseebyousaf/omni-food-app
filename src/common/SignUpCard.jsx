@@ -20,12 +20,12 @@ const SignUpCard = ({
       </h2>
       <p className="text-lg mb-12 max-[945px]:mb-[38.4px] max-[945px]:text-[14.4px] max-[1201px]:text-[16.2px] max-[1201px]:mb-[43.2px] leading-[1.8] text-[#45260a]">{text}</p>
 
-      <form className="grid max-[1201px]:grid-cols-1 gap-x-8 gap-y-6 max-[1201px]:gap-x-7 max-[1201px]:gap-y-[21.6px] grid-cols-2">
+      <form className="grid max-[1201px]:grid-cols-1 gap-x-8 gap-y-6 max-[1201px]:gap-x-7 max-[945px]:gap-y-[19.2px] max-[1201px]:gap-y-[21.6px] grid-cols-2">
         <div>
           {/* name  */}
           <label
             htmlFor="full-Name"
-            className="block text-base max-[945px]:text-[12.8px] max-[945px]:mb-[9.6px]  max-[1201px]:text-sm max-[1201px]:mb-[10.8px] mb-3 font-medium"
+            className="block text-base max-[945px]:text-[12.8px] max-[945px]:mb-[9.6px] max-[1201px]:text-sm max-[1201px]:mb-[10.8px] mb-3 font-medium"
           >
             {labelname}
           </label>
@@ -35,7 +35,7 @@ const SignUpCard = ({
             placeholder="John Smith"
             name="full-name"
             required
-            className="w-full max-[945px]:p-[9.6px]  max-[1201px]:placeholder-text-[16.2px] max-[1201px]:p-[10.8px] p-3 text-lg text-inherit border-none bg-[#fdf2e9] rounded-[11px]  outline-none shadow-[0_1px_2px_rgba(0,0,0,0.1)] placeholder:font-normal placeholder:text-[#aaaaac] "
+            className="w-full p-3 text-lg text-inherit max-[945px]:text-[14.4px]  border-none bg-[#fdf2e9] rounded-[11px] max-[1201px]:p-[8.8px] max-[1201px]:text-[16.2px] outline-none placeholder:text-[#aaaaac]  "
           />
         </div>
         {/* email */}
@@ -48,7 +48,7 @@ const SignUpCard = ({
             placeholder="me@example.com"
             name="email"
             required
-            className="w-full max-[1201px]:p-[10.8px] p-3 text-lg text-inherit border-none bg-[#fdf2e9] rounded-[11px]  outline-none shadow-[0_1px_2px_rgba(0,0,0,0.1)] placeholder:font-normal placeholder:text-[#aaaaac] "
+            className="w-full p-3 text-lg text-inherit max-[945px]:text-[14.4px]  border-none bg-[#fdf2e9] rounded-[11px] max-[1201px]:p-[8.8px] max-[1201px]:text-[16.2px] outline-none placeholder:text-[#aaaaac] "
           />
         </div>
         {/* for options  */}

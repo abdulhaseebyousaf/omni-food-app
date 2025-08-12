@@ -5,17 +5,17 @@ import appImage2 from "../assets/WorksPhoto/app-screen-2.png";
 import appImage3 from "../assets/WorksPhoto/app-screen-3.png";
 function HowItWorks() {
   return (
-    <div id="how" className="py-24">
-      <div className="max-w-[1200px] px-8 mx-auto">
-        <span className="text-[#cf711f] pb-4 text-base font-medium uppercase tracking-[0.75px] ">
+    <div id="how" className=" py-24 max-[945px]:py-5 max-[1201px]:py-[86px] ">
+      <div className="max-w-[1200px] px-8 max-[1201px]:px-7 max-[945px]:px-[25px] max-[1201px]:max-w-[1080px] mx-auto">
+        <span className="text-[#cf711f] max-[945px]:text-xs max-[945px]:mb-3   max-[1201px]:text-sm max-[1201px]:mb-[14px]  pb-4 text-base font-medium uppercase tracking-[0.75px] ">
           how it work
         </span>
-        <h2 className="text-[44px] mb-24 font-bold text-[#333]">
+        <h2 className="text-[44px] max-[945px]:text-[28px] max-sm:leading-7.5 max-sm:pt-4 max-[945px]:mb-[76px] max-[1201px]:text-[32px] max-[545px]:mb-[38px] max-[1201px]:mb-[86px] mb-24 font-bold text-[#333] ">
           Your daily dose of health in 3 simple steps
         </h2>
         {/*  */}
       </div>
-      <div className="max-w-[1200px] max-[1200px]:gap-y-[57.6px] gap-y-16  flex flex-col  px-8 mx-auto ">
+      <div className="max-w-[1201px] max-[1201px]:max-w-[1080px] max-[1201px]:gap-y-[57.6px] gap-y-16 max-[945px]:gap-y-[38px]  flex flex-col max-[945px]:px-[25px] px-8 mx-auto max-[1201px]:px-7 ">
         {/* div */}
         <Card 
         image={appImage1}

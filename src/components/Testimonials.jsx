@@ -21,13 +21,13 @@ import gallery12 from '../assets/galleryPhoto/gallery-12.jpg'
 function Testimonials() {
   return (
     <div id='testimonials' className='bg-[#fdf2e9] max-[945px]:grid-cols-1 grid grid-cols-[55fr_45fr] items-center'>
-        <div className='p-24 max-[1201px]:py-[86px] max-[1201px]:px-[28.8px] max-[945px]:px-[25px] max-[945px]:py-[76px]'>
+        <div className='p-24 max-[1201px]:py-[86px] max-[1201px]:px-[28.8px] max-[945px]:px-[25px] max-sm:py-8 max-[945px]:py-[76px]'>
 
             <span className='block text-base font-medium max-[1201px]:text-sm max-[1201px]:mb-3.5 text-[#cf711f] uppercase mb-4 max-[945px]:text-[12px] max-[945px]:mb-3 tracking-[0.75px]'>Testimonials</span>
 
-            <h1 className='text-[44px] leading-[1.2] mb-24 tracking-[-0.5px] max-[945px]:mb-[76px] max-[945px]:text-[28px] font-bold max-[1201px]:text-[32px] max-[1201px]:mb-[86px] max-[704px]:mb-[38.4px] '>Once you try it, you can't go back</h1>
+            <h1 className='text-[44px] leading-[1.2] mb-24 tracking-[-0.5px] max-[945px]:mb-[76px] max-sm:mb-6 max-[945px]:text-[28px] font-bold max-[1201px]:text-[32px] max-[1201px]:mb-[86px] max-[704px]:mb-[38.4px] '>Once you try it, you can't go back</h1>
            
-            <div className='grid gap-x-12 gap-y-20 max-[945px]:gap-y-[38.4px] max-[945px]:gap-x-[64.4px] max-[1201px]:gap-y-[43px] max-[545px]:grid-cols-1 max-[1201px]:gap-x-[72px] grid-cols-2'>
+            <div className='grid gap-x-12 gap-y-20 max-[945px]:gap-y-[38.4px] max-[945px]:gap-x-[64.4px] max-[1201px]:gap-y-[43px] max-[545px]:grid-cols-1 max-[1201px]:gap-x-[72px] grid-cols-2 max-sm:gap-y-5'>
                 <TestimonialCard
                 image={image}
                 description={'Inexpensive, healthy and great-tasting meals,without even having to order manually! It feels truly magical.'}

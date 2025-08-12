@@ -47,7 +47,7 @@ const PricingCard = ({text, dollar, number, paragraph,  contact1, contact2, cont
         </li>
     </ul>
     <div className='flex justify-center'>
-<a href="#" className="hover:bg-[#cf711f] max-[1201px]:mt-[43px] max-[1201px]:text-lg cursor-pointer text-xl text-white hover:transition-all font-semibold hover:duration-300  mt-12 rounded-[9px] max-[1201px]:px-7  max-[1201px]:py-3.5  px-8 py-4 bg-[#e67e22]">{buttonText}</a>
+<a href="#" className="hover:bg-[#cf711f] max-[1201px]:mt-[43px] max-[1201px]:text-lg cursor-pointer text-xl text-white hover:transition-all font-semibold hover:duration-300  mt-12 rounded-[9px] max-[1201px]:px-7  max-[1201px]:py-3.5  px-8 py-4 bg-[#e67e22] text-center max-[945px]:text-base max-[945px]:py-3 max-[945px]:mt-9  max-[945px]:px-6 ">{buttonText}</a>
     </div>
     </>
   )
