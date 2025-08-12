@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/omnifood-logo.png'
-import HowItWorks from '../components/HowItWorks'
-import { CiMenuBurger } from "react-icons/ci";
-import NavMain from './Navmain'
+import NavMain from '../common/NavMain'
 function Header() {
 const [visible, setVisible] = useState(false)
 
