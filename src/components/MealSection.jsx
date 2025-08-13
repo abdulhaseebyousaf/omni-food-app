@@ -48,7 +48,7 @@ function MealSection() {
           Omnifood AI chooses from 5,000+ recipes
         </h2>
       </div>
-      <div className="mb-12 max-[705px]:gap-x-[38px] max-[545px]:grid-cols-1 grid grid-cols-3 gap-x-16 px-8 mx-auto max-[705px]:grid-cols-2 max-[705px]:gap-y-[51px] max-[705px]:px-[25px]  max-w-[1200px] max-[1201px]:max-w-[1080px] max-[1201px]:gap-x-[43px] max-sm:gap-y-8 max-[945px]:gap-x-[38.4px] max-sm:mb-8">
+      <div className="mb-12 max-[705px]:gap-x-[38px] max-[545px]:grid-cols-1 grid grid-cols-3  gap-x-16 px-8 mx-auto max-[705px]:grid-cols-2 max-[705px]:gap-y-[51px] max-[705px]:px-[25px]  max-w-[1200px] max-[1201px]:max-w-[1080px] max-[1201px]:gap-x-[43px] max-sm:gap-y-8 max-[945px]:gap-x-[38.4px] max-sm:mb-8">
         <ProductCard
           image={imagee}
           text={"Vegetarian"}
@@ -81,7 +81,7 @@ function MealSection() {
           textlast={"rating (441)"}
         />
         <div className="dites  max-[705px]:col-span-full max-[705px]:justify-self-left  ">
-          <h1 className="text-3xl max-[1201px]:text-[21px]  max-[1201px]:mb-[28px]  mb-8 text-[#333] font-bold">
+          <h1 className="text-3xl max-[1201px]:text-[21px] max-[1201px]:mb-[28px] tracking-[-0.5px] mb-8 text-[#333] font-bold">
             Works with any diet:
           </h1>
             <div className="flex flex-col gap-y-4 max-[945px]:gap-y-3">

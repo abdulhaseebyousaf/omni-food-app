@@ -5,10 +5,10 @@ const PricingCard = ({text, dollar, number, paragraph,  contact1, contact2, cont
   return (
     <>
        <div className='mb-12 text-center max-[1201px]:mb-[43px] max-[945px]:mb-[38px]'>
-        <p className='text-[#cf711f] max-[1201px]:text-lg  max-[1201px]:mb-2   font-semibold text-xl uppercase mb-2 max-[945px]:text-base max-[945px]:mb-[25px]'>{text}</p>
+        <p className='text-[#cf711f] max-[1201px]:text-lg  max-[1201px]:mb-2   font-semibold text-xl uppercase  max-[945px]:text-base max-[945px]:mb-[25px]'>{text}</p>
         
-        <h5 className='font-semibold text-[62px] max-[1201px]:text-[55px] text-[#333] max-[945px]:text-5xl max-[945px]:mb-3  '>
-            <span className='text-3xl max-[945px]:text-2xl  max-[1201px]:text-[27px] font-medium mr-2' >{dollar}
+        <h5 className='font-semibold text-[62px]  max-[1201px]:text-[55px] text-[#333] max-[945px]:text-5xl max-[945px]:mb-3  '>
+            <span className='text-3xl max-[945px]:text-2xl   max-[1201px]:text-[27px] font-medium mr-2' >{dollar}
             </span>
             {number}
             </h5>

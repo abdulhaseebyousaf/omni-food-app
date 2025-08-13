@@ -35,7 +35,7 @@ const SignUpCard = ({
             placeholder="John Smith"
             name="full-name"
             required
-            className="w-full p-3 text-lg text-inherit max-[945px]:text-[14.4px]  border-none bg-[#fdf2e9] rounded-[11px] max-[1201px]:p-[8.8px] max-[1201px]:text-[16.2px] outline-none placeholder:text-[#aaaaac]  "
+            className="w-full p-3 text-lg text-inherit max-[945px]:text-[14.4px]  border-none bg-[#fdf2e9] rounded-[11px] max-[1201px]:p-[8.8px] max-[1201px]:text-[16.2px] outline-none h-12 max-[1201px]:h-auto placeholder:text-[#aaaaac]  "
           />
         </div>
         {/* email */}
@@ -48,7 +48,7 @@ const SignUpCard = ({
             placeholder="me@example.com"
             name="email"
             required
-            className="w-full p-3 text-lg text-inherit max-[945px]:text-[14.4px]  border-none bg-[#fdf2e9] rounded-[11px] max-[1201px]:p-[8.8px] max-[1201px]:text-[16.2px] outline-none placeholder:text-[#aaaaac] "
+            className="w-full p-3 text-lg text-inherit h-12 max-[945px]:text-[14.4px]  border-none bg-[#fdf2e9] rounded-[11px] max-[1201px]:p-[8.8px] max-[1201px]:text-[16.2px] max-[1201px]:h-auto outline-none placeholder:text-[#aaaaac] "
           />
         </div>
         {/* for options  */}
@@ -75,7 +75,7 @@ const SignUpCard = ({
         {/* submit button */}
         <button
           type="submit"
-          className="bg-[#45260a] max-[1201px]:text-lg max-[1201px]:p-[10.8px] text-[#fdf2e9] hover:bg-white hover:text-[#555] self-end p-3 inline-block cursor-pointer font-semibold text-xl rounded-[9px] border-none transition-all duration-300"
+          className="bg-[#45260a] max-[1201px]:text-lg h-12 max-[1201px]:p-[10.8px] text-[#fdf2e9] hover:bg-white hover:text-[#555] self-end p-3 inline-block cursor-pointer font-semibold text-xl rounded-[9px] border-none transition-all duration-300"
         >
           Sign up now
         </button>

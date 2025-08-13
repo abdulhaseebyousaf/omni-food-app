@@ -9,9 +9,9 @@ const ProductCard = ({ image, text, heading, svg, number, textsecond, thirdnumbe
       {/* for image */}
       <div className='pt-8 max-[1201px]:pt-7 max-[1201px]:px-[43px] max-[1201px]:pb-[43px] px-12 pb-12 max-[945px]:pt-[19px] max-[945px]:px-[25px] max-[945px]:pb-[25px] '>
         <div className='mb-3 flex gap-x-1' >
-          <span className='bg-[#51cf66] inline-block px-2 py-1 text-[12px] max-[1201px]:text-[10px] text-center h-fit max-[1201px]:px-[7px] max-[1201px]:py-[3px]    uppercase text-[#333] rounded-full font-semibold ' >{text}</span>
+          <span className='bg-[#51cf66] inline-block px-2  text-[12px] max-[1201px]:text-[10px] text-center h-fit max-[1201px]:px-[7px] max-[1201px]:py-[3px]    uppercase text-[#333] rounded-full font-semibold ' >{text}</span>
           {/*  */}
-          <span className={`bg-[#ffd43b]  ${display} px-2 py-1 text-[12px] uppercase text-[#333] rounded-full font-semibold  max-[945px]:text-[9.6px]`} >{innertext}</span>
+          <span className={`bg-[#ffd43b]  ${display} px-2 flex items-center text-[12px] uppercase text-[#333] rounded-full font-semibold  max-[945px]:text-[9.6px]`} >{innertext}</span>
         </div>
         <div className='mb-8 max-[1201px]:mb-7 max-[945px]:mb-[25px] '>
         <span className='text-2xl text-[#333]  font-semibold max-[1201px]:text-[21px]    max-[945px]:text-[19px]  '>{heading}</span>

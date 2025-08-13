@@ -27,7 +27,7 @@ function Testimonials() {
 
             <h1 className='text-[44px] leading-[1.2] mb-24 tracking-[-0.5px] max-[945px]:mb-[76px] max-sm:mb-6 max-[945px]:text-[28px] font-bold max-[1201px]:text-[32px] max-[1201px]:mb-[86px] max-[704px]:mb-[38.4px] '>Once you try it, you can't go back</h1>
            
-            <div className='grid gap-x-12 gap-y-20 max-[945px]:gap-y-[38.4px] max-[945px]:gap-x-[64.4px] max-[1201px]:gap-y-[43px] max-[545px]:grid-cols-1 max-[1201px]:gap-x-[72px] grid-cols-2 max-sm:gap-y-5'>
+            <div className='grid gap-x-20 gap-y-12 max-[945px]:gap-y-[38.4px] max-[945px]:gap-x-[64.4px] max-[1201px]:gap-y-[43px] max-[545px]:grid-cols-1 max-[1201px]:gap-x-[72px] grid-cols-2 max-sm:gap-y-5'>
                 <TestimonialCard
                 image={image}
                 description={'Inexpensive, healthy and great-tasting meals,without even having to order manually! It feels truly magical.'}

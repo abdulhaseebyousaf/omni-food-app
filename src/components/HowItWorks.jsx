@@ -28,7 +28,7 @@ function HowItWorks() {
       <Card
         number={'02'}
         heading={'Approve your weekly meal plan'}
-        description={'Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!'}
+        description={'Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.'}
         flexDirection={'flex-row-reverse'}
         image={appImage2}
         />
