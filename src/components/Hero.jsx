@@ -11,7 +11,7 @@ export default function Hero() {
     // main div
     <div className='pt-12 pb-24 bg-[#fdf2e9] max-[1201px]:pt-11 max-[1201px]:pb-[86px] max-[545px]:pt-5 max-[545px]:pb-[51px]  '>
         {/* for main first main div */}
-<div className='max-w-[1300px] max-[1345px]:max-w-[1200px] max-[1201px]:max-w-[1080px] max-[1201px]:gap-[43.2px]  mx-auto grid gap-24 items-center grid-cols-2 max-[945px]:grid-cols-1 max-[945px]:px-16 max-[545px]:px-[25px] max-[945px]:text-center max-[945px]:gap-[51px] px-8'>
+<div className='max-w-[1300px] max-[1345px]:max-w-[1200px] max-[1201px]:max-w-[1080px] max-[1201px]:gap-[43.2px]  mx-auto grid gap-24 items-center grid-cols-2 max-[945px]:grid-cols-1 max-[945px]:px-16 max-[545px]:px-[25px] max-[945px]:text-center max-[945px]:gap-[51px] mt-24 px-8 max-[1201px]:mt-[98px] max-[945]:mt-[69px]'>
     {/* hero-text-box */}
     <div className='text-[#555] font-normal '>
         <h1 className='text-[52px] text-[#343a40] max-[545px]:mb-[25px] max-[1345px]:text-[44px] max-[545px]:text-[35px] max-[945px]:text-[35px] max-[945px]:mb-[25px] mb-8 max-[1201px]:text-[39.6px] font-bold max-[545px]:text-left tracking-[-0.5px] leading-[1.05]' >  A healthy meal delivered to your door, every single day
@@ -30,10 +30,7 @@ export default function Hero() {
             {/* last images */}
             <div className='flex items-center gap-x-3.5 justify-center mt-20 max-[945px]:mt-7 max-[1201px]:mt-[72px] max-sm:gap-3 max-sm:flex max-sm:flex-col'>
              
-               <div className='text-lg max-[945px]:text-sm font-semibold  leading-4 max-[1201px]:text-base'>
-                    <span className='text-[#cf711f] font-bold'>250,000+ </span>
-                     meals delivered last year!
-                    </div>
+              
                 {/*  */}
                 <div className='flex mr-7 max-[945px]:mr-3'>
                     <img className='h-12 w-12 max-[945px]:w-[39px] max-[945px]:h-[39px] max-[1201px]:w-[42px] max-[1201px]:h-[42px] rounded-[50%] mr-[-16px] border-[3px] border-solid border-[#fdf2e9]' src={customer1} alt="" />
@@ -44,7 +41,10 @@ export default function Hero() {
                     <img className='h-12 w-12 max-[945px]:w-[39px] max-[945px]:h-[39px] max-[1201px]:w-[42px] max-[1201px]:h-[42px] rounded-[50%] mr-[-16px] border-[3px] border-solid border-[#fdf2e9]'  src={customer6} alt="" />
                 </div>
                 {/* text */}
-              
+               <div className='text-lg max-[945px]:text-sm font-semibold  leading-4 max-[1201px]:text-base'>
+                    <span className='text-[#cf711f] font-bold'>250,000+ </span>
+                     meals delivered last year!
+                    </div>  
             </div>
     </div>
     <div>
