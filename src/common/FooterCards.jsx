@@ -1,6 +1,8 @@
 import React from 'react'
-
-const FooterCards = ({logo, insta, facebook, twitterlogo, copyright, }) => {
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+const FooterCards = ({logo,  copyright, }) => {
   return (
     <>
      <div className='flex flex-col max-[705px]:col-span-3'>
@@ -9,19 +11,28 @@ const FooterCards = ({logo, insta, facebook, twitterlogo, copyright, }) => {
         </a>
         <ul className='list-none flex gap-x-6 '>
             <li>
+             <a href="#">
+                <p  className = "text-2xl text-[#767676] hover:text-[#555] duration-300 max-[1201px]:text-[21px] max-[945px]:w-[19.19px]"
+                >
+               <FaInstagram />
+               </p>
+                </a>          
+            </li>
+            <li>
             <a href="#">
-                <img className='w-6 max-[1201px]:w-[21px] max-[945px]:w-[19.19px]' src={insta} alt="" />
+                <p  className = "text-2xl text-[#767676] hover:text-[#555] duration-300 max-[1201px]:text-[21px] max-[945px]:text-[19.19px]"
+                >
+               <FaFacebook />
+               </p>
                 </a>    
             </li>
             <li>
             <a href="#">
-                <img className='w-6 max-[1201px]:w-[21px] max-[945px]:w-[19.19px]' src={facebook} alt="" />
-                </a>    
-            </li>
-            <li>
-            <a href="#">
-                <img className='w-6 max-[1201px]:w-[21px] max-[945px]:w-[19.19px] ' src={twitterlogo} alt="" />
-                </a>    
+                <p  className = "text-2xl text-[#767676] hover:text-[#555] duration-300 max-[1201px]:text-[21px] max-[945px]:text-[19.19px]"
+                >
+              <FaTwitter />
+               </p>
+                </a>        
             </li>
         </ul>
         <p className='mt-[58px] max-[945px]:text-[11.2px] max-[945px]:mt-[52.1406px] text-[#767676] max-[1201px]:text-[12px] max-[1201px]:mt-[58px] text-sm leading-[1.6]'>{copyright}</p>
