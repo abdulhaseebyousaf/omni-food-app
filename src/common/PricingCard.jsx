@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdDone } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
-const PricingCard = ({text, dollar, number, paragraph,  contact1, contact2, contact3,  contact4, buttonText,showicon }) => {
+const PricingCard = ({text, contact11, contact22, dollar, number, paragraph,  contact1, contact2, contact3,  contact4, buttonText,showicon }) => {
   return (
     <>
        <div className='mb-12 text-center max-[1201px]:mb-[43px] max-[945px]:mb-[38px]'>
@@ -20,15 +20,22 @@ const PricingCard = ({text, dollar, number, paragraph,  contact1, contact2, cont
             <p className='text-[#e67e22] max-[945px]:text-2xl  max-[1201px]:text-[27px] text-3xl'>
                 <MdDone />
             </p>
-            <p className='text-lg leading-[1.2] max-[945px]:text-sm  max-[1201px]:text-base text-[#555]'>{contact1}
-             
+            <p className='text-lg leading-[1.2] max-[945px]:text-sm  max-[1201px]:text-base text-[#555]'>
+               <span className='text-lg font-medium text-[#555]' >{contact11}</span> 
+                {contact1}
+
             </p>
         </li>
         <li className='flex items-center gap-4 leading-[1.2] text-lg '>
             <p className='text-[#e67e22] text-3xl  max-[945px]:text-2xl max-[1201px]:text-[27px]'>
                 <MdDone />
             </p>
-            <p className='text-lg leading-[1.2] max-[945px]:text-sm max-[1201px]:text-base text-[#555]'>{contact2}</p>
+            <p className='text-lg leading-[1.2] max-[945px]:text-sm max-[1201px]:text-base text-[#555]'>
+                {contact2}
+                <span className='text-lg font-medium text-[#555]'>
+                {contact22}
+                </span>
+                </p>
         </li>
 
         <li className='flex items-center gap-4 leading-[1.2] max-[1201px]:text-base text-lg '>

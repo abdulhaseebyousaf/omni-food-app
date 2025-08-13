@@ -16,9 +16,9 @@ function Pricing() {
         <h2 className='text-[44px] max-[1201px]:text-[32px] max-[1201px]:mb-[86px] mb-24 max-[945px]:mb-[76px] max-[945px]:text-[28px] leading-[1.2] text-[#333] font-bold tracking-[-0.5px] max-[705px]:mb-9 max-[405px]:text-[28px] '>Eating well without breaking the bank</h2>
         
         </div>  
-        <div className='grid max-w-[1200px] mb-12 gap-x-16 gap-y-24  grid-cols-2   mx-auto max-[1201px]:max-w-[1080px] max-[1201px]:mb-[43px] max-[1201px]:gap-x-[43px] max-[945px]:gap-x-[38px] max-[545px]:justify-items-center max-[545px]:grid-cols-1 max-[705px]:pl-6 max-[545px]:gap-y-9 max-[705px]:pr-6'>
+        <div className='grid max-w-[1200px] mb-12 gap-x-16 gap-y-24  grid-cols-2   mx-auto max-[1201px]:max-w-[1080px] max-[1201px]:mb-[43px] max-[1201px]:gap-x-[47px] max-[945px]:gap-x-[38px] max-[545px]:justify-items-center max-[545px]:grid-cols-1 max-[705px]:pl-6 max-[545px]:gap-y-9 max-[705px]:pr-6'>
 <div className='justify-items-end max-[545px]:justify-items-center max-[705px]:w-full '>
-<div className=' border-2 max-[1201px]:p-[43.2px] max-[945px]:p-9  border-solid border-[#fdf2e9] max-[705px]:w-full p-[46px]  rounded-[11px] w-[70.9%] '>
+<div className=' border-2 max-[1201px]:p-[41.2px] max-[945px]:p-9  border-solid border-[#fdf2e9] max-[705px]:w-full p-[46px]  rounded-[11px] w-[70.9%] '>
    <PricingCard 
    text={'Starter'}
    dollar={'$'}
@@ -33,14 +33,16 @@ function Pricing() {
    />
 </div>
     </div>
-<div className='pricingCard  max-[1201px]:after:text-sm !max-[1201px]:after:px-[72px] !max-[1201px]:after:py-2 overflow-hidden border-2 max-[945px]:p-9  relative border-solid border-[#fdf2e9] p-[46px] rounded-[11px] bg-[#fdf2e9] max-[1201px]:p-[34.2px] w-[70.9%] max-[705px]:w-full '>
+<div className='pricingCard overflow-hidden border-2 max-[945px]:p-9  relative border-solid border-[#fdf2e9] p-[46px] rounded-[11px] bg-[#fdf2e9] max-[1201px]:p-[33px] w-[70.9%] max-[705px]:w-full '>
    <PricingCard 
    text={'Complete'}
    dollar={'$'}
    number={'649'}
    paragraph={'per month. That is just $11 per meal!'}
-   contact1={'2 meal per day'}
-   contact2={'Order 24/7'}
+   contact11={'2 meals'}
+   contact1={' per day'}
+   contact2={'Order'}
+   contact22={' 24/7'}
    contact3={'Delivery is free'}
    contact4={'Get access to latest recipes'}
   showicon={false}

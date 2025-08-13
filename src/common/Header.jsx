@@ -9,7 +9,7 @@ const handleShow = () =>{
 }
   
   return (
-    <div className='fixed top-0 left-0 w-full z-50  '>
+    <div className='sticky top-0 left-0 w-full z-50  '>
        <div className='flex w-full justify-between items-center max-[1201px]:px-7 max-[1201px]:h-[87px] bg-[#fdf2e9] h-24 px-12 relative max-[545px]:px-[25px] max-[945px]:h-[76px] ' >
     <img className='h-[22px] w-[163.58px] max-[1201px]:h-[19px] max-[1201px]:w-[147px] max-[945px]:h-[17px] max-[945px]:w-[130px] ' src={logo} />
        <nav className='flex items-center max-[1201px]:gap-x-7 max-[945px]:hidden gap-x-12 list-none'>

@@ -12,41 +12,41 @@ function Featured() {
             <h1 className='text-center text-[14px] tracking-[0.75px]  font-medium mb-6 uppercase  text-[#888] max-[507]:mb-6 max-[507px]:text-[11px] max-[1201px]:mb-[19px] '>AS FEATURED IN</h1>
            <Slider
             width="240px"
-            padding-left="10px"
             duration={40}
-             display= "flex"
-             align-items= "center"
-           justify-content= "center"
             pauseOnHover={true}
             blurBorders={false}
             blurBorderColor={'#fff'}
+
+            
         >
 
-            <Slider.Slide>
-                <img className='h-8 w-32  justify-center max-sm:h-6 brightness-0 opacity-50' src={tech} alt="" />
+            <Slider.Slide
+            className="awesome_classname"
+            >
+                <img className=' h-8 w-32 justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={tech} alt="" />
                </Slider.Slide>
-               <Slider.Slide>
-               
-                <img className='h-8 w-32 jmax-sm:h-6 brightness-0 opacity-50' src={business} alt="error" />
-               
-                </Slider.Slide>
-                <Slider.Slide>
-                
-
-                <img className='h-8 w-32 justify-center max-sm:h-6 brightness-0 opacity-50' src={neww} alt="" />
+               <Slider.Slide
+                           className="awesome_classname"
+               >
+                <img className=' h-8 w-32 max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={business} alt="error" />
                
                 </Slider.Slide>
-                <Slider.Slide>
-                  
-
-                <img className='h-8 w-32 justify-center max-sm:h-6 brightness-0 opacity-50' src={forbes} alt="" />
-             
+                <Slider.Slide
+                className="awesome_classname"
+                >
+              
+                <img className=' h-8 w-32 justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={neww} alt="" />
+               
                 </Slider.Slide>
-                <Slider.Slide>
-                 
-    
-                <img className='h-8 justify-center max-sm:h-6 brightness-0 opacity-50' src={usa} alt="" />
-                
+                <Slider.Slide
+                className="awesome_classname"
+                >
+                <img className=' h-8 w-32 justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={forbes} alt="" />
+                </Slider.Slide>
+                <Slider.Slide
+                className="awesome_classname"
+                >                 
+                <img className=' h-8 justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={usa} alt="" />
             </Slider.Slide>
         </Slider>
           </div>

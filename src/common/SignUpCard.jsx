@@ -20,7 +20,7 @@ const SignUpCard = ({
       </h2>
       <p className="text-lg mb-12 max-[945px]:mb-[38.4px] max-[945px]:text-[14.4px] max-[1201px]:text-[16.2px] max-[1201px]:mb-[43.2px] leading-[1.8] text-[#45260a]">{text}</p>
 
-      <form className="grid max-[1201px]:grid-cols-1 gap-x-8 gap-y-6 max-[1201px]:gap-x-7 max-[945px]:gap-y-[19.2px] max-[1201px]:gap-y-[21.6px] grid-cols-2">
+      <form className="grid max-[945px]:grid-cols-1 gap-x-8 gap-y-6 max-[1201px]:gap-x-7 max-[945px]:gap-y-[19.2px] max-[1201px]:gap-y-[21.6px] grid-cols-2">
         <div>
           {/* name  */}
           <label
@@ -75,7 +75,7 @@ const SignUpCard = ({
         {/* submit button */}
         <button
           type="submit"
-          className="bg-[#45260a] max-[1201px]:text-lg h-12 max-[1201px]:p-[10.8px] text-[#fdf2e9] hover:bg-white hover:text-[#555] self-end p-3 inline-block cursor-pointer font-semibold text-xl rounded-[9px] border-none transition-all duration-300"
+          className="bg-[#45260a] max-[945px]:text-base max-[1201px]:text-lg h-12 max-[1201px]:p-[10.8px] text-[#fdf2e9] hover:bg-white hover:text-[#555] self-end p-3 inline-block cursor-pointer font-semibold text-xl rounded-[9px] border-none transition-all duration-300"
         >
           Sign up now
         </button>

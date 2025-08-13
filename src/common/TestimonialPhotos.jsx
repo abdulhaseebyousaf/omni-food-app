@@ -3,7 +3,7 @@ import React from 'react'
 function TestimonialPhotos({ gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery11 }) {
   return (
     <>
-    <div className='grid gap-4 p-4 grid-cols-3 max-[945px]:gap-3 max-[945px]:p-3 max-[545px]:grid-cols-4 max-[945px]:pb-13 max-[945px]:grid-cols-6 max-[1345px]:grid-cols-2 max-sm:px-[25px] max-sm:pb-9 max-sm:grid-cols-3 ' > 
+    <div className='grid gap-4 p-4 grid-cols-3 max-[945px]:gap-3 max-[945px]:p-3 max-[545px]:grid-cols-4 max-[945px]:pb-13 max-[945px]:grid-cols-6 max-[1345px]:grid-cols-2 max-sm:px-[25px]  max-[1201px]:p-3.5 max-sm:pb-9'> 
       <figure className='overflow-hidden'>
         <img className='hover:transform duration-400 hover:scale-[1.1]'  src={gallery1} alt="" />
       </figure>

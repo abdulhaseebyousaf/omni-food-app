@@ -11,20 +11,22 @@ export default function Hero() {
     // main div
     <div className='pt-12 pb-24 bg-[#fdf2e9] max-[1201px]:pt-11 max-[1201px]:pb-[86px] max-[545px]:pt-5 max-[545px]:pb-[51px]  '>
         {/* for main first main div */}
-<div className='max-w-[1300px] max-[1345px]:max-w-[1200px] max-[1201px]:max-w-[1080px] max-[1201px]:gap-[43.2px]  mx-auto grid gap-24 items-center grid-cols-2 max-[945px]:grid-cols-1 max-[945px]:px-16 max-[545px]:px-[25px] max-[945px]:text-center max-[945px]:gap-[51px] mt-24 px-8 max-[1201px]:mt-[98px] max-[945]:mt-[69px]'>
+<div className='max-w-[1300px]  max-[1345px]:max-w-[1200px] max-[1201px]:max-w-[1080px] max-[1201px]:gap-[43.2px]  mx-auto grid gap-24 items-center grid-cols-2 max-[945px]:grid-cols-1 max-[945px]:px-16 max-[545px]:px-[25px] max-[945px]:text-center max-[945px]:gap-[51px]  px-8  '>
     {/* hero-text-box */}
     <div className='text-[#555] font-normal '>
         <h1 className='text-[52px] text-[#343a40] max-[545px]:mb-[25px] max-[1345px]:text-[44px] max-[545px]:text-[35px] max-[945px]:text-[35px] max-[945px]:mb-[25px] mb-8 max-[1201px]:text-[39.6px]  max-[545px]:text-left tracking-[-0.5px] font-bold leading-[1.05]' >  A healthy meal delivered to your door, every single day
             </h1>
-            <h2 className='mb-12 max-[945px]:mb-4.5 leading-[1.6] max-[945px]:text-base text-[20px] max-[1201px]:text-lg max-[545px]:text-left max-[1201px]:mb-[43px]' >
+            <h2 className='mb-12 max-[945px]:mb-[38px] leading-[1.6] max-[945px]:text-base text-[20px] max-[1201px]:text-lg max-[545px]:text-left max-[1201px]:mb-[43px]' >
               The smart 365-days-per-year food subscription that will make you
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </h2>
             {/*buttons */}
     <div className='max-sm:flex  max-sm:flex-col max-sm:gap-3 '>
-            <a href="#signup" className='hover:bg-[#cf711f] cursor-pointer max-[412px]:w-full text-white hover:transition-all font-semibold hover:duration-300 max-sm:mr-0 mr-[19px] rounded-[9px] px-8 py-[14px] max-[945px]:text-base text-xl max-[945px]:px-8 max-[1201px]:mr-3.5 max-[1201px]:px-7 justify-center max-[383px]:flex max-[1201px]:py-3.5 max-[1201px]:text-lg  max-[545px]:px-3 bg-[#e67e22]  '>Start eating well</a>
-            <a href="#how" className='hover:bg-[#fdf2e9] cursor-pointer text-[#555] hover:transition-all hover:duration-300 hover:shadow-[inset_0_0_0_3px_#fff] font-semibold rounded-[9px] px-8 max-[945px]:px-8 py-3 max-[1201px]:px-7 max-[1201px]:py-3.5 max-[1201px]:text-lg max-[383px]:flex justify-center max-[945px]:text-base text-xl inline-block bg-white hover:border-white'>Learn more ↓</a>
+
+            <a href="#signup" className='hover:bg-[#cf711f] cursor-pointer max-[412px]:w-full text-white hover:transition-all font-semibold hover:duration-300 max-sm:mr-0 mr-[19px] rounded-[9px] px-8 py-[14px] max-[945px]:text-base text-xl max-[945px]:px-[25px] max-[1201px]:mr-3.5 max-[1201px]:px-7 justify-center max-[383px]:flex max-[1201px]:py-3.5 max-[1201px]:text-lg  max-[545px]:px-3 max-[945px]:py-3 bg-[#e67e22]  '>Start eating well</a>
+
+            <a href="#how" className='hover:bg-[#fdf2e9] cursor-pointer text-[#555] hover:transition-all hover:duration-300 hover:shadow-[inset_0_0_0_3px_#fff] font-semibold rounded-[9px] px-8 max-[945px]:px-[25px] max-[945px]:py-3 py-3 max-[1201px]:px-7 max-[1201px]:py-3.5 max-[1201px]:text-lg max-[383px]:flex justify-center max-[945px]:text-base text-xl inline-block bg-white hover:border-white'>Learn more ↓</a>
     </div>
               
             {/* last images */}

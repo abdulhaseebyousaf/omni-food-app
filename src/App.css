@@ -69,3 +69,17 @@ html {
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(10px);
 }
+.awesome_classname {
+    display: flex;
+ justify-content: center;
+}
+@media only screen and (max-width: 945px) {
+    .awesome_classname {
+        width: 200px !important;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .awesome_classname {
+        width: 190px !important;
+    }
+}
