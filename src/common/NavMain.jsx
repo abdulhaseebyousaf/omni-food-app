@@ -11,7 +11,7 @@ const handelhide = () => {
       <>
           <div id='main' className='mainnav transform  absolute left-0 top-0 w-full h-screen hidden max-[945px]:flex items-center  justify-center transition-all ease-in duration-300  pointer-events-auto  '>
         
-    <img className='absolute  right-9 top-8  w-5 h-5' src={Image} alt="" onClick={() => handelhide()} />
+    <img id='crossImage' className='absolute  right-9 top-8  w-5 h-5' src={Image} alt="" onClick={() => handelhide()} />
 
 <ul className='flex flex-col items-center gap-y-[43.4px]'>
           <a href='#how' onClick={handelhide}  className='text-[#333] hover:transition-all hover:duration-300 cursor-pointer leading-5 hover:text-[#cf711f] font-medium text-2xl'>How it works</a>

@@ -68,11 +68,19 @@ html {
         background-color: rgba(255, 255, 255, 0.9);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(10px);
-        
+        animation: slideLeftToRight 0.5s ease-in;
 }
-.main {
-    transition: all 0.5s ease-out;
-}
+
+  @keyframes slideLeftToRight {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+
 .awesome_classname {
     display: flex;
  justify-content: center;

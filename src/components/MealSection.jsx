@@ -39,8 +39,8 @@ function MealSection() {
   ];
 
   return (
-    <div id="meal" className="py-24 max-[1201px]:py-[86px] max-sm:py-7 max-[705px]:py-[76px] max-[550px]:pt-[66px]">
-      <div className="px-8 mx-auto max-w-[1200px] max-[705px]:px-0  ">
+    <div id="meal" className="py-24 max-[1201px]:py-[86px] max-sm:py-7 max-[705px]:py-[76px] ">
+      <div className="px-8 mx-auto max-w-[1200px] max-[705px]:px-0  max-[550px]:pt-[34.5px]">
         <span className="uppercase font-medium max-sm:text-left max-sm:px-[25px] text-base  block text-[#cf711f] mb-4 tracking-[0.75px] text-center max-[1201px]:text-sm max-[1201px]:mb-4 ">
           Meals
         </span>
@@ -97,9 +97,9 @@ function MealSection() {
         </div>
       </div>
       <div className="text-center ">
-        <h1 className="inline-block h-[27px] font-normal cursor-pointer hover:text-[#cf711f] text-lg text-[#e67e22] hover:border-transparent border-b border-solid border-[#e67e22] pb-0.5 transition-all duration-300">
+        <a href="#" className="inline-block h-[27px] font-normal cursor-pointer hover:text-[#cf711f] text-lg text-[#e67e22] hover:border-transparent border-b border-solid border-[#e67e22] pb-0.5 transition-all duration-300 ">
           See all recipes →
-        </h1>
+        </a>
       </div>
     </div>
   );

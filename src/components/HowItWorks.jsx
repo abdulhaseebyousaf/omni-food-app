@@ -5,7 +5,7 @@ import appImage2 from "../assets/WorksPhoto/app-screen-2.png";
 import appImage3 from "../assets/WorksPhoto/app-screen-3.png";
 function HowItWorks() {
   return (
-    <div id="how" className=" py-24 max-[945px]:py-5 max-[1201px]:py-[86px] max-[550px]:pt-[62px] ">
+    <div id="how" className=" py-24 max-[945px]:py-5 max-[1201px]:py-[86px] max-[550px]:pt-[57px] ">
       <div className="max-w-[1200px] px-8 max-[1201px]:px-7 max-[945px]:px-[25px] max-[1201px]:max-w-[1080px] mx-auto">
         <span className="text-[#cf711f] max-[945px]:text-xs max-[945px]:mb-3   max-[1201px]:text-sm  max-[1201px]:pb-3.5  pb-4 text-base font-medium uppercase tracking-[0.75px] ">
           how it workS
