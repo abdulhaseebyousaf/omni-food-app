@@ -1,9 +1,5 @@
-import React from 'react'
 import logo from '../assets/omnifood-logo.png'
 import FooterCards from '../common/FooterCards'
-import instalogo from '../assets/footersvg/insta.svg'
-import facebooklogo from '../assets/footersvg/facebook.svg'
-import twitterlogo from '../assets/footersvg/twitter.svg'
 import FooterAccount from '../common/FooterAccount'
 
 function Footer() {
