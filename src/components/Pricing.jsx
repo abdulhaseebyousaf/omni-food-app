@@ -9,7 +9,7 @@ import logofourth from '../assets/Pricingsvg/fourth.svg'
 function Pricing() {
   return (
     <div id='pricing' className='py-24 max-[1201px]:py-24 max-[945px]:py-14  max-sm:py-9' >
-      <div className='max-w-[1200px] max-[945px]:px-[25px] max-[1201px]:px px-8 mx-auto max-[1201px]:max-w-[1080px] '>
+      <div className='max-w-[1200px] max-[945px]:px-[25px] max-[1201px]:px px-8 mx-auto max-[1201px]:max-w-[1080px] max-md:pt-8'>
         
          <p className='block text-base max-[1201px]:text-[14px] max-[1201px]:mb-[14px] font-medium text-[#cf711f] uppercase mb-4 tracking-[0.75px] max-[1021px]:mb-3 max-[945px]:text-[12px]'>Pricing</p>
 

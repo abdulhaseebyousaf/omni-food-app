@@ -10,10 +10,10 @@ const handleShow = () =>{
   
   return (
     <div className='sticky top-0 left-0 w-full z-50  '>
-       <div className='flex w-full justify-between items-center max-[1201px]:px-7 max-[1201px]:h-[87px] bg-[#fdf2e9] h-24 px-12 relative max-[545px]:px-[25px] max-[945px]:h-[76px] ' >
+       <div className='flex w-full justify-between items-center max-[1201px]:px-7 max-[1201px]:h-[87px] bg-[#fdf2e9] h-24 px-12 relative max-[545px]:px-[25px] max-[945px]:h-[76px] max-sm:h-16' >
     <img className='h-[22px] w-[163.58px] max-[1201px]:h-[19px] max-[1201px]:w-[147px] max-[945px]:h-[17px] max-[945px]:w-[130px] ' src={logo} />
        <nav className='flex items-center max-[1201px]:gap-x-7 max-[945px]:hidden gap-x-12 list-none'>
-        <a href='#how'  className='text-[#333] hover:transition-all hover:duration-300 cursor-pointer max-[1201px]:text-base hover:text-[#cf711f] font-medium text-lg'>How it works</a>
+        <a href='#how'  className='text-[#333] hover:transition-all hover:duration-300 cursor-pointer peer-checked:border-2  max-[1201px]:text-base hover:text-[#cf711f] font-medium text-lg'>How it works</a>
         <a href='#meal' className='text-[#333] hover:text-[#cf711f] hover:transition-all hover:duration-300 cursor-pointer max-[1201px]:text-base font-medium text-lg'>Meals</a>
         <a href='#testimonials' className='text-[#333] hover:transition-all hover:text-[#cf711f] hover:duration-300 cursor-pointer max-[1201px]:text-base font-medium text-lg'>Testimonials</a>
         <a href='#pricing' className='text-[#333] hover:transition-all hover:duration-300 hover:text-[#cf711f] cursor-pointer max-[1201px]:text-base font-medium text-lg'>Pricing</a>

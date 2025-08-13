@@ -39,7 +39,7 @@ function MealSection() {
   ];
 
   return (
-    <div id="meal" className="py-24 max-[1201px]:py-[86px] max-sm:py-7 max-[705px]:py-[76px] ">
+    <div id="meal" className="py-24 max-[1201px]:py-[86px] max-sm:py-7 max-[705px]:py-[76px] max-[550px]:pt-[66px]">
       <div className="px-8 mx-auto max-w-[1200px] max-[705px]:px-0  ">
         <span className="uppercase font-medium max-sm:text-left max-sm:px-[25px] text-base  block text-[#cf711f] mb-4 tracking-[0.75px] text-center max-[1201px]:text-sm max-[1201px]:mb-4 ">
           Meals

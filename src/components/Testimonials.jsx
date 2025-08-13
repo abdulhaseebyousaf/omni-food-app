@@ -21,7 +21,7 @@ import gallery12 from '../assets/galleryPhoto/gallery-12.jpg'
 function Testimonials() {
   return (
     <div id='testimonials' className='bg-[#fdf2e9] max-[945px]:grid-cols-1 grid grid-cols-[55fr_45fr] items-center'>
-        <div className='p-24 max-[1201px]:py-[86px] max-[1201px]:px-[28.8px] max-[945px]:px-[25px] max-sm:py-8 max-[945px]:py-[76px]'>
+        <div className='p-24 max-[550px]:pt-[65px] max-[1201px]:py-[86px] max-[1201px]:px-[28.8px] max-[945px]:px-[25px] max-sm:py-8 max-[945px]:py-[76px]'>
 
             <span className='block text-base font-medium max-[1201px]:text-sm max-[1201px]:mb-3.5 text-[#cf711f] uppercase mb-4 max-[945px]:text-[12px] max-[945px]:mb-3 tracking-[0.75px]'>Testimonials</span>
 

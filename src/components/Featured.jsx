@@ -23,25 +23,25 @@ function Featured() {
             <Slider.Slide
             className="awesome_classname"
             >
-                <img className=' h-8 w-32 justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={tech} alt="" />
+                <img className=' h-8  justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={tech} alt="" />
                </Slider.Slide>
                <Slider.Slide
                            className="awesome_classname"
                >
-                <img className=' h-8 w-32 max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={business} alt="error" />
+                <img className=' h-8  max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={business} alt="error" />
                
                 </Slider.Slide>
                 <Slider.Slide
                 className="awesome_classname"
                 >
               
-                <img className=' h-8 w-32 justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={neww} alt="" />
+                <img className=' h-8  justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={neww} alt="" />
                
                 </Slider.Slide>
                 <Slider.Slide
                 className="awesome_classname"
                 >
-                <img className=' h-8 w-32 justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={forbes} alt="" />
+                <img className=' h-8  justify-center max-sm:h-5 max-[945px]:h-6  brightness-0 opacity-50' src={forbes} alt="" />
                 </Slider.Slide>
                 <Slider.Slide
                 className="awesome_classname"
@@ -50,7 +50,6 @@ function Featured() {
             </Slider.Slide>
         </Slider>
           </div>
-
     </section>
   )
 }
